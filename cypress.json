@@ -1,0 +1,11 @@
+{
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 20000,
+  "env": {
+    "url": "https://rahulshettyacademy.com"
+  },
+  "projectId": "ovy92y"
+}
+
+
+

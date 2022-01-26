@@ -1,0 +1,27 @@
+/// <reference types = "Cypress"/>
+
+class HomePage
+{
+    getEditBox()
+    {
+      return cy.get('input[name ="name"]:nth-child(2)') 
+    }
+    getTwoWayDataBinding()
+    {
+        return cy.get(':nth-child(4) > .ng-untouched')
+    }
+    getEntrepreneurButton()
+    {
+        return cy.get('#inlineRadio3')
+    }
+    getShopTab()
+    {
+        return cy.get(':nth-child(2) > .nav-link')
+    }
+    getGender()
+    {
+        return cy.get('select')
+    }
+}
+
+export default HomePage;
